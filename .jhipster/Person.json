@@ -1,0 +1,29 @@
+{
+  "applications": "*",
+  "changelogDate": "20220126114113",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "person",
+  "fields": [
+    {
+      "fieldName": "firstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "surName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "state",
+      "fieldType": "State",
+      "fieldValues": "OK,AWAY,LOST,EXPECTED,UNDEFINED"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Person",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
